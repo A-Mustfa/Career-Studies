@@ -1,0 +1,2 @@
+we can solve it with composition via an interface
+or create an abstract class and both classes inherit from it
