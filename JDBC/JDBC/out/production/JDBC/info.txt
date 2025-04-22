@@ -1,0 +1,9 @@
+1- first thing we load and register the driver
+      a- download jar file and add it to project
+      b- use forName Method to load the register
+
+2- create connection by providing url + user + password
+3- create statement using the connection
+4- receive the result in a result set and loop over it
+5- close the connection & statement
+---- don't forget to import java.sql
