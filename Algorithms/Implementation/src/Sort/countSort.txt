@@ -1,0 +1,12 @@
+psuedo:
+1-- create bucket array of size of the constriants 
+2-- this bucket array will contian the count of each number appearance in the main array
+-- bucket[nums]++;
+3-- sum the number of apearance of the number and the previous number to it
+bucket[i] = bucket[i]+bucket[i-1] where i start with 1;
+4-- create result array that with the size of original array 
+and the index of the result will represent the number of the smallest numbers
+resul[i] = buckets[nums[i]-1];
+note that if nums[i]==0;
+result[i] = 0; because no number less than 0;
+ 
